@@ -1,11 +1,15 @@
-module org.example.gestordegastos {
+module org.nexum {
     requires javafx.controls;
     requires javafx.fxml;
-
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
 
-    opens org.example.gestordegastos to javafx.fxml;
-    exports org.example.gestordegastos;
+    exports com.nexum;
+    exports com.nexum.controllers;
+    opens com.nexum to javafx.fxml;
+    opens com.nexum.controllers to javafx.fxml;
+
+
 }
