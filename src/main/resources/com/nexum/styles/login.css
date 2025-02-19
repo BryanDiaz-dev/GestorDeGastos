@@ -1,0 +1,12 @@
+.login_container {
+    -fx-background-color: #f1f1f1;
+}
+
+.login_container_form {
+    -fx-background-color: linear-gradient(to top, #4A5C6A, #11212D);
+}
+
+.login_container_accounts {
+    -fx-pref-width: 350;
+    -fx-background-color: #222222;
+}
